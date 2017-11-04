@@ -10,6 +10,8 @@ public class ComputeChange {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        System.out.println(1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1);
+
         System.out.print("Enter the amount of dollars in double, e.g. 11,86 : ");
         double amount = input.nextDouble();
 
