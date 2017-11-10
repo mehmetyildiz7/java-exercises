@@ -24,8 +24,8 @@ public class GuessBirthday {
                         "20 21 22 23\n" +
                         "28 29 30 31\n";
 
-        setsOfDays[3] = "8 17 18 19\n" +
-                        "20 21 22 23\n" +
+        setsOfDays[3] = " 8  9 10 11\n" +
+                        "12 13 14 15\n" +
                         "24 25 26 27\n" +
                         "28 29 30 31\n";
 
@@ -54,7 +54,7 @@ public class GuessBirthday {
             }
         }
 
-        System.out.println("Your born on " + day + ". day of the month.");
+        System.out.println("You born on " + day + ". day of the month.");
     }
 
 }
